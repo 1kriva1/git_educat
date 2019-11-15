@@ -8,7 +8,7 @@ export class User {
     email: string;
     phone: string;
 }
-
+ 
 @Component({
     selector: 'my-app',
     styles: [`
@@ -42,4 +42,4 @@ export class AppComponent {
     submit(form: NgForm){
         console.log(form);
     }
-}
+} 
